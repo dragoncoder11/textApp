@@ -1,6 +1,4 @@
-
 import 'package:flutter/material.dart';
-
 
 import 'package:textfield_project/main.dart';
 
@@ -22,7 +20,6 @@ class _NewAccountState extends State<NewAccount> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
       body: Container(
         padding: const EdgeInsets.fromLTRB(10, 80, 10, 50),
         child: SingleChildScrollView(
@@ -176,14 +173,11 @@ class _NewAccountState extends State<NewAccount> {
                     backgroundColor: MaterialStateProperty.all(Colors.green)),
               ),
             ),
-           
-                Text(
-                  softWrap: true,
-                  ' By Signing Up you agree to join our Terms conditions & privacy policy.',
-                  style: TextStyle(fontSize: 15),
-                ),
-            
-           
+            Text(
+              softWrap: true,
+              ' By Signing Up you agree to join our Terms conditions & privacy policy.',
+              style: TextStyle(fontSize: 15),
+            ),
             SizedBox(
               height: 20,
             ),
